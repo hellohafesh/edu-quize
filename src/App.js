@@ -34,8 +34,7 @@ function App() {
           element: <Blogs></Blogs>
         }
       ]
-    },
-    {
+    }, {
       path: '*',
       element: <Notfound></Notfound>
     }

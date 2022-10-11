@@ -1,31 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
     return (
 
-        <div class="nav">
-            <input type="checkbox" id="nav-check" />
-            <div class="nav-header">
-                <div class="nav-title">
-                    EDU QUIZZES
-                </div>
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </div>
-
-            <div class="nav-links">
-                <Link to="/">Home</Link>
-                <Link to="/topics">Topics</Link>
-                <Link to="/statistics">Statistics</Link>
-                <Link to="/blogs">Blogs</Link>
-            </div>
+        <div className='home-details'>
+            <h1>Edu Quizz For You </h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, mollitia. Facilis sit poro natus dolorem expedita rerum esse laboriosam, !</p>
         </div>
 
     );
