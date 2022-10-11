@@ -1,0 +1,21 @@
+.home-details {
+    text-align: center;
+    padding: 10px;
+    background-image: url('../../../public/ready-quiz-neon-sign-brick-wall-background-glowing-lettering-ready-quiz-neon-sign-brick-wall-background-219006686.jpg');
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    color: white;
+    background-repeat: no-repeat;
+
+}
+
+.topics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

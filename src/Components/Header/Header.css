@@ -4,7 +4,12 @@
 
 body {
     margin: 0px;
-    font-family: cursive;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav {
@@ -43,7 +48,12 @@ body {
 }
 
 .nav>.nav-links>a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    color: aqua;
+}
+
+
+.nav>.nav-links>a:hover {
+    background-color: rgba(141, 116, 116, 0.3);
 }
 
 .nav>#nav-check {

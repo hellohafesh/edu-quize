@@ -1,0 +1,30 @@
+.topic {
+    background-color: rgba(236, 223, 223, 0.511);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.topic img {
+    height: 250px;
+    width: 280px;
+}
+
+.tipic-detail button {
+    border: none;
+    background-color: aqua;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.tipic-detail h2 {
+    color: black;
+    font-weight: bolder;
+}
+
+.tipic-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
