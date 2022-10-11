@@ -12,14 +12,22 @@ const Questions = (props) => {
     return (
         <div className='allquestion'>
             <div>
-                <ol type='1'>
+                <ul >
                     <li>{question}</li>
-                </ol>
+                </ul>
             </div>
-            <div>
+            <div className='allOptions'>
                 {
-                    // { topics.map(topic => <Topic key={topics.id} topic={topic}></Topic>) }
-                    options.map(option => <ul><li>{option}</li></ul>)
+                    options.map(option =>
+
+                        <div className='options'>
+                            <div className='option'>
+                                <div><input type="radio" placeholder={option} value="Female" name="gender" /> {option}</div>
+                            </div>
+
+                        </div>
+
+                    )
                 }
             </div>
 
