@@ -9,3 +9,11 @@
     background-repeat: no-repeat;
 
 }
+
+.home-details h1 {
+    font-weight: 900;
+}
+
+.home-details p {
+    font-weight: 900;
+}

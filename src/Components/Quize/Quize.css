@@ -1,0 +1,12 @@
+.quizes img {
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+}
+
+.quizes {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}

@@ -6,6 +6,7 @@
 }
 
 .topic img {
+    background-color: gray;
     height: 250px;
     width: 280px;
 }
@@ -15,6 +16,11 @@
     background-color: aqua;
     padding: 4px;
     border-radius: 8px;
+}
+
+.tipic-detail button a {
+    color: black;
+    text-decoration: none;
 }
 
 .tipic-detail h2 {

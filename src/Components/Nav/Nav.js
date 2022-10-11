@@ -21,7 +21,7 @@ const Nav = () => {
 
             <div class="nav-links">
                 <Link to="/">Home</Link>
-                <Link to="/topics">Topics</Link>
+                <Link to="/topics">Qiuze Topics</Link>
                 <Link to="/statistics">Statistics</Link>
                 <Link to="/blogs">Blogs</Link>
 
