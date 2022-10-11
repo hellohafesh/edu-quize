@@ -11,9 +11,13 @@ const Quize = (props) => {
     return (
         <div className='quizes'>
             <div>
-                <h1>Quize Of: {quizes.data.name} </h1>
-                <h4>Total Quize :{quizes.data.total}</h4>
-                <img src={quizes.data.logo} alt="" />
+                <div className='quize-details'>
+                    <div>
+                        <h1>Quize Of: {quizes.data.name} </h1>
+                        <h4>Total Quize :{quizes.data.total}</h4>
+                        <img src={quizes.data.logo} alt="" />
+                    </div>
+                </div>
                 {
 
                     allQuestions.map(allQuestion => <Questions key={allQuestion.id} allQuestion={allQuestion}></Questions>)

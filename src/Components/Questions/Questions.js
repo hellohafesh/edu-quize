@@ -1,5 +1,7 @@
 import React from 'react';
 import './Questions.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 
 const Questions = (props) => {
@@ -7,14 +9,13 @@ const Questions = (props) => {
     const question = tagQuestion.slice(3, -4);
     const options = props.allQuestion.options;
 
-
-    console.log(options);
     return (
         <div className='allquestion'>
-            <div>
-                <ul >
-                    <li>{question}</li>
+            <div className='questions'>
+                <ul>
+                    <li><h4>{question}</h4></li>
                 </ul>
+                <button><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
             </div>
             <div className='allOptions'>
                 {

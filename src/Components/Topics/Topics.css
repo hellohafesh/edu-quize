@@ -1,0 +1,44 @@
+.topics-header {
+    text-align: center;
+}
+
+.btn-topic {
+    border: 0;
+    background-color: aqua;
+    padding: 5px;
+    color: black;
+    border-radius: 8px;
+}
+
+.btn-topic a {
+    text-decoration: none;
+
+
+}
+
+.tii {
+    width: 70%;
+
+}
+
+.ti {
+    height: 50px;
+    border: 2px solid rgb(76, 78, 78);
+
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 23px 21px 9px -16px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 23px 21px 9px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 23px 21px 9px -16px rgba(0, 0, 0, 0.75);
+}
+
+.ti h5 {
+    display: inline;
+    padding: 10px;
+}
+
+.ti h3 {
+    display: inline;
+    padding: 10px;
+}

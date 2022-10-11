@@ -4,6 +4,11 @@
     width: 200px;
 }
 
+.quize-details {
+    display: flex;
+    justify-content: center;
+}
+
 .quizes {
     /* display: flex;
     width: 100%;
