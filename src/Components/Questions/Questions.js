@@ -23,7 +23,7 @@ const Questions = (props) => {
 
                         <div className='options'>
                             <div className='option'>
-                                <div><input type="radio" placeholder={option} value="Female" name="gender" /> {option}</div>
+                                <div><input type="radio" value={option} name={option} /> {option}</div>
                             </div>
 
                         </div>
@@ -31,7 +31,6 @@ const Questions = (props) => {
                     )
                 }
             </div>
-
 
         </div>
 
