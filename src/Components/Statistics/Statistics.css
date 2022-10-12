@@ -1,11 +1,15 @@
 .statistics {
     text-align: center;
     display: flex;
+
+
     justify-content: center;
     align-items: center;
 }
 
 .details {
+
+
     margin: 10px;
     padding: 10px;
 }

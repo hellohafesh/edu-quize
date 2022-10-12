@@ -22,6 +22,8 @@ const Statistics = () => {
                 </div>
 
 
+
+
                 <BarChart width={500}
                     height={300}
                     data={topics} margin={{
@@ -31,6 +33,8 @@ const Statistics = () => {
                         bottom: 5,
                     }}>
                     {
+
+
                         topics.map(topic => <Bar dataKey="total" fill="#8884d8" />)
                     }
                     <XAxis dataKey="name" />
