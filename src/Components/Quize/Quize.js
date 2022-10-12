@@ -22,6 +22,7 @@ const Quize = (props) => {
 
                     allQuestions.map(allQuestion => <Questions key={allQuestion.id} allQuestion={allQuestion}></Questions>)
                 }
+
             </div>
         </div>
     );
