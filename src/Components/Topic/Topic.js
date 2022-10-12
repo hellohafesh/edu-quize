@@ -6,6 +6,9 @@ const Topic = (props) => {
 
     const onID = (id) => {
         // console.log(id);
+
+
+
     }
     const { topic } = props;
     return (
@@ -13,6 +16,8 @@ const Topic = (props) => {
             <div className="topic">
                 <img src={topic.logo} alt="" />
                 <div className="tipic-detail">
+
+
                     <div>
                         <h3>{topic.name}</h3>
                         <p><small>Total Quiz :{topic.total}</small></p>
