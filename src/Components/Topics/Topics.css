@@ -5,9 +5,13 @@
 .btn-topic {
     border: 0;
     background-color: aqua;
-    padding: 5px;
+    padding: 2px;
     color: black;
     border-radius: 8px;
+}
+
+.btn-topic a {
+    color: black;
 }
 
 .btn-topic a {
@@ -16,13 +20,13 @@
 
 }
 
-.tii {
+.singletopic {
     width: 70%;
 
 }
 
-.ti {
-    height: 50px;
+.topic {
+    height: 60px;
     border: 2px solid rgb(76, 78, 78);
 
     background-color: lightgrey;
@@ -33,12 +37,29 @@
     -moz-box-shadow: 23px 21px 9px -16px rgba(0, 0, 0, 0.75);
 }
 
-.ti h5 {
+.topic h5 {
     display: inline;
     padding: 10px;
 }
 
-.ti h3 {
+.topic h3 {
     display: inline;
     padding: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .topic h5 {
+        display: block;
+        padding: 10px;
+    }
+
+    .topic h3 {
+        display: block;
+        padding: 10px;
+    }
+
+    .topic {
+        height: 200px;
+
+    }
 }

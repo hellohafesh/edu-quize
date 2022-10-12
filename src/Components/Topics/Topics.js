@@ -20,8 +20,8 @@ const Topics = () => {
             </div>
             <div className="topics">
 
-                <div className="tii">
-                    {topics.map(topic => <div className="ti">
+                <div className="singletopic">
+                    {topics.map(topic => <div className="topic">
                         <h3>Quize Name:{topic.name}</h3>
                         <h5>Total Quize:{topic.total}</h5>
                         <button className='btn-topic'><Link to={`/quize/${topic.id}`}>Start Quiz</ Link></button>

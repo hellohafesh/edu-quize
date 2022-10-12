@@ -41,7 +41,7 @@ const Questions = (props) => {
                             <div className='options'>
                                 <div className='option'>
                                     <div>
-                                        <input type="radio" value={option} name={option}
+                                        <input type="radio" value={option} name={props.allQuestion.id}
                                             onChange={handleChange}
                                         />
                                         {option}</div>

@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: 'Libre Bodoni',
+    serif;
 }
 
 .App-logo {
