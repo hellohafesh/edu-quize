@@ -1,7 +1,7 @@
 .topic {
     background-color: rgba(236, 223, 223, 0.511);
     padding: 10px;
-    border: 1px solid black;
+    border: 0;
     border-radius: 10px;
 }
 

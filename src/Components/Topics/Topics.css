@@ -25,7 +25,7 @@
 
 }
 
-.topic {
+.topic1 {
     height: 60px;
     border: 2px solid rgb(76, 78, 78);
 
@@ -37,28 +37,28 @@
     -moz-box-shadow: 23px 21px 9px -16px rgba(0, 0, 0, 0.75);
 }
 
-.topic h5 {
+.topic1 h5 {
     display: inline;
     padding: 10px;
 }
 
-.topic h3 {
+.topic1 h3 {
     display: inline;
     padding: 10px;
 }
 
 @media screen and (max-width:800px) {
-    .topic h5 {
+    .topic1 h5 {
         display: block;
         padding: 10px;
     }
 
-    .topic h3 {
+    .topic1 h3 {
         display: block;
         padding: 10px;
     }
 
-    .topic {
+    .topic1 {
         height: 200px;
 
     }
