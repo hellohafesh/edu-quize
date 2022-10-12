@@ -5,11 +5,13 @@
     border-radius: 10px;
 }
 
+
 .topic img {
     background-color: gray;
     height: 250px;
     width: 280px;
 }
+
 
 .tipic-detail button {
     border: none;
@@ -18,9 +20,11 @@
     border-radius: 8px;
 }
 
+
 .tipic-detail button a {
     color: black;
     text-decoration: none;
+
 }
 
 .tipic-detail h2 {
@@ -28,9 +32,11 @@
     font-weight: bolder;
 }
 
+
 .tipic-detail {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 280px;
+
 }
